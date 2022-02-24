@@ -15,6 +15,24 @@
         <h2>Birds by Sravani Jakkula</h2>
     </head>
     <body>
+      <nav class="navbar navbar-expand-md navbar-light bg-primary">
+        <a class="navbar-brand" href="birds.html">Interesting Birds</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="basic.html">Basic</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="advanced.html">Advanced</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
         <div class="container">
             <div class="row">
                 <div class="col-sm-2">J</div>
@@ -35,7 +53,148 @@
                 
             </div>
             <p>The bird names row first breaks at 764*393 px when we reduce the size and the bird start letter breaks at 575*391 px</p>
+            
+      </div>
+      <div class="container">
+      <img  src="King rail.jfif" class="img-fluid" alt="King Rail">
+      <img  src="Ashy tit.jfif" class="img-fluid" alt="ostritch">
+      <img src="javan myna.jfif" class="img-fluid" alt="eagle">
+      </div>
+      <div class = "container"> 
+          <img src="King rail.jfif" class="img-thumbnail" alt="eagle">
+          <img src="Ashy tit.jfif" class="img-thumbnail" alt="penguine">
+          <img src="javan myna.jfif" class="img-thumbnail" alt="ostritch">
         </div>
 
+       <br>
+       <table class="table table-striped table-bordered table-hover">
+      <caption>My surname letters</caption>
+      <thead class="table-primary">
+      <tr class="table-success">
+        <th scope="col">Letter</th>
+        <th scope="col">Bird</th>
+        <th scope="col">Lake</th>
+        <th scope="col">Athlete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-danger">
+        <th scope="row">P</th>
+        <td>Javan myna</td>
+        <td>Jatiluhur</td>
+        <td>Jablonski</td>
+      </tr>
+      <tr class = "table-info">
+        <th scope="row">O</th>
+        <td>Ashy tit</td>
+        <td>Abashiri</td>
+        <td>Aaron Smith </td>
+      </tr>
+      <tr class="table-primary">
+        <th scope="row">R</th>
+        <td>King rail</td>
+        <td>Kakhovskoye</td>
+        <td>Marc Raab</td>
+      </tr>
+      <tr class="table-light">
+        <th scope="row">E</th>
+        <td>Kingfisher</td>
+        <td>Kamburu</td>
+        <td>Kevin</td>
+      </tr>
+      <tr class="table-primary">
+        <th scope="row">D</th>
+        <td>Ural owl</td>
+        <td>Ubinskoe</td>
+        <td>Ulis </td>
+      </tr>
+      <tr class="table-info">
+        <th scope="row">Y</th>
+        <td>Little cuckoo</td>
+        <td>Lacar</td>
+        <td>Luis</td>
+      </tr>
+    </tbody>
+    </table> 
+    <br>
+    <label>All-Buttons</label>
+    <br>
+    <button class="btn">J</button>
+    <button class="btn">A</button>
+    <button class="btn">K</button>
+    <button class="btn">K</button>
+    <button class="btn">U</button>
+    <button class="btn">L</button>
+    <br>
+    <label>Group Button</label>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group" role="group" aria-label="group 1">
+        <button type="button" class="btn btn-success">J</button>
+        <button type="button" class="btn btn-success">A</button>
+        <button type="button" class="btn btn-success">K</button>
+      </div>
+
+      <div class="btn-group" role="group" aria-lable="group 2">
+       <button type="button" class="btn btn-warning">K</button>
+       <button type="button" class="btn btn-warning">U</button>
+      </div> 
+      <div class="btn-group" role="group" aria-lable="group 3">
+        <button type="button" class="btn btn-danger">L</button>
+     </div> 
+   </div>
+
+   
+   <div class="dropdown">
+    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Dropdown button</button>
+     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+       <li><a class="dropdown-item" href="basic.html">Basic</a></li>
+       <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
+ 
+     </div>
+   </div> 
+   <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Bird</label>
+      <input type="text" class="form-control" id="Enter your bird">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <div class="card-group">
+    <div class="card" style="width: 18rem;">
+      <img src="King rail.jfif" class="card-img-top" alt="King_rail">
+      <div class="card-body">
+        <h5 class="card-title">King_rail</h5>
+        <p class="card-text">An elegant dweller of freshwater and brackish marshes, the King Rail is a rich buffy bird with crisp stripes on its sides. This largest of North America’s rails is very secretive as it slips through short marsh vegetation in search of crayfish, crabs, and frogs. Its call is a steady series of harsh notes, more staccato than the call of the very similar Clapper Rail. Owing to wetland loss and modification, King Rail numbers have declined 90% in the last half-century, putting the species on the Yellow Watch List.</p>
+        <a href="https://www.allaboutbirds.org/guide/King_Rail/overview" class="btn btn-primary">see full details</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      <img src="Ashy tit.jfif" class="card-img-top" alt="Ashy_tit">
+      <div class="card-body">
+        <h5 class="card-title">Ashy_tit</h5>
+        <p class="card-text">The ashy tit (Melaniparus cinerascens) is a species of bird in the family Paridae. It is found in Angola, Botswana, Namibia, South Africa, and Zimbabwe. Its natural habitats are subtropical or tropical dry forests and dry savanna.The ashy tit was formerly one of the many species in the genus Parus but was moved to Melaniparus after a molecular phylogenetic analysis published in 2013 showed that the members of the new genus formed a distinct clade.</p>
+        <a href="https://en.wikipedia.org/wiki/Ashy_tit" class="btn btn-primary">see full details</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      <img src="javan myna.jfif" class="card-img-top" alt="javan myna">
+      <div class="card-body">
+        <h5 class="card-title">javan myna</h5>
+        <p class="card-text">he Javan myna is mainly black. The wings are brownish-black, and the primaries have white bases. The undertail-coverts are white. There is a short crest on the forehead.Its beak, legs and feet are yellow.</p>
+        <a href="https://en.wikipedia.org/wiki/Javan_myna" class="btn btn-primary">see full details</a>
+      </div>
+    </div>
+  </div>
     </body>
 </html>
